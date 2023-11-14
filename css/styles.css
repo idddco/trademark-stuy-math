@@ -1,0 +1,93 @@
+body {
+  background: #fff;
+}
+
+.xl-text {
+  font-size: 65px;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/showcase.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.navbar-internal ul {
+  margin: 0;
+}
+
+.navbar-internal img {
+  height: 25px;
+}
+
+.vertical-decoration {
+  top: 12%;
+  width: 24px;
+}
+
+hr {
+  background: #c5c5c5;
+  height: 2px;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.8;
+}
+
+.details .vertical-decoration {
+  top: 0;
+  left: 0;
+  width: 24px;
+}
+
+.details-2 .vertical-decoration {
+  top: 5%;
+  right: 0;
+  width: 24px;
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+#download img {
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.w-1 {
+  width: 10%;
+}
+
+.w-2 {
+  width: 70%;
+}
+
+.w-3 {
+  width: 20%;
+}
+
+.mb-tr {
+  margin-bottom: 50px !important;
+}
+
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+  .header {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../images/showcase.jpg") center center no-repeat;
+  }
+  .vh-80 {
+    height: 100%;
+    padding: 80px 0;
+  }
+  .navbar-internal ul {
+    justify-content: center !important;
+  }
+}
